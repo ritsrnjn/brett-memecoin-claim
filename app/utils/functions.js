@@ -695,10 +695,10 @@ export const NFTmint = async () => {
 
         // 2. Prepare the data for upload
     const dataToUpload = {
-        posts_data,
-        comments_data,
-        users_data,
-        timestamp: new Date().toISOString(),
+        "description": "Brett Token ", 
+        "external_url": "https://openseacreatures.io/3", 
+        "image": "https://noun.pics/" + Math.floor(Math.random() * 100), 
+        "name": "Brett Token",
       };
   
       // Convert to string for upload
